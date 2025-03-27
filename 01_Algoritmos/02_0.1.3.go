@@ -5,6 +5,7 @@
 //K := ABSO (K-Q) + 2 * DOS
 //RESULTADO := REDOND (ABSO((K-DOS)/Q)+TRUNC(1,5))
 Accion 0.1.3 es
+
 	AMBIENTE
 	K=4
 	Q=7

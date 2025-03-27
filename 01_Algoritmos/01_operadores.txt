@@ -1,0 +1,14 @@
+DiV DIVISION ENTERA 13 DIV 4 =
+ / DIVISION CON DECIMAL
+** POTENCIA
+MOD MODULO DE LA DIVISION ENTERA 13 MOD 4 =2
++ SUMADOR
+- SUSTRACTOR
+ESCRIBIR () muestra un resultado
+LEER() ingresa un dato
+num1:entero, real, alfanumerico(colocar cantidad de caracteres) //variable
+num=5 //constante
+:= //da un valor a la variable saludo:="hola"
+<= MAYOR O IGUAL
+=< MENOR O IGUAL
+
