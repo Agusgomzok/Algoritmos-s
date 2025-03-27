@@ -14,9 +14,10 @@ Ambiente
 		ad:Num
 		bc:Num
 		Resultado:Num
-	Proceso
+	
+		Proceso
 		Escribir("este programa que lee dos número complejos, (a,b) y (c,d), y calcula su producto ")
-		Escribir("Ingrese 4 numeros complejos"a,b,c,d)
+		Escribir("Ingrese 4 numeros complejos",a,b,c,d)
 		Leer(a,b,c,d)
 		ac:=a*c
 		db:=d*b
@@ -24,6 +25,6 @@ Ambiente
 		bc:=b*c
 
 		Resultado:=(ac−db,ad+bc)
-		Escribir("el resultado del producto de los numeros complejos es" ;Resultado)
+		Escribir("el resultado del producto de los numeros complejos es" ,Resultado)
 Fin accion
 
