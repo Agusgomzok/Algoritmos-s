@@ -4,15 +4,15 @@
 Accion 1.1.5.6 es
 Ambiente
 	Ambiente
-		a:Num //son variables de los numeros complejos
-		b:Num //son variables de los numeros complejos
-		c:Num //son variables de los numeros complejos
-		d:Num//son variables de los numeros complejos
+		a:Real //son variables de los numeros complejos
+		b:Real //son variables de los numeros complejos
+		c:Real //son variables de los numeros complejos
+		d:Real//son variables de los numeros complejos
 		
-		ac:Num
-		db:Num
-		ad:Num
-		bc:Num
+		ac:Real
+		db:Real
+		ad:Real
+		bc:Real
 		Resultado:Num
 	
 		Proceso
@@ -27,4 +27,11 @@ Ambiente
 		Resultado:=(ac−db,ad+bc)
 		Escribir("el resultado del producto de los numeros complejos es" ,Resultado)
 Fin accion
-
+----------------------------------------------------------------------------------------------------------------
+//Realizar un programa que lea dos número complejos, (a,b) y (c,d), y calcule su producto:
+//(a,b)∗(c,d)=(ac−db,ad+bc)
+Accion Numeros_Complejos es
+	Ambiente
+	a 
+	Proceso
+Fin Accion
