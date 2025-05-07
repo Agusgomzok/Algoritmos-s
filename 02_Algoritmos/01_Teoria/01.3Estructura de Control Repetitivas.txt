@@ -1,0 +1,45 @@
+                                     ESTRUCTURA DE CONTROL
+CONTQADORES
+ACUMULADORES
+BANDERAS
+-------------------------------------------------------------------------------------------------------------------------------
+                                CARACTERISTICAS DE ESTRUCTURA REPETITIVAS
+ITERACION
+BUCLE
+-------------------------------------------------------------------------------------------------------------------------------
+                                CALIFICACION DE ESTRUCTURA REPETITIVAS
+DEFINIDAS
+INDEFINIDAS
+-------------------------------------------------------------------------------------------------------------------------------
+                            CALIFICACION DE ESTRUCTURA REPETITIVAS INDEFINIDAS
+PRE-TEST:
+        #NO  se conoce la cantidad de veces que se va a iterar el conjunto de acciones.
+        #El final del bucle esta controlado por una condicion(exp logica o booleana).
+        #Mientras sea "VERDADERA"  se va a seguir ejecutando el conjunto de acciones.
+        #Ejecuta 0 mas veces.
+              
+                                            ESTRUCTURA
+        a:=0
+        Mientras (a>b) hacer
+         c:= a+b;
+        Fin Mientras
+_______________________________________________________________________________________________________________________________
+POST-TEST:
+        #NO  se conoce la cantidad de veces que se va a iterar el conjunto de acciones.
+        #El final del bucle esta controlado por una condicion(exp logica o booleana).
+        #El post funciona mientras la condicion sea falsa, si es verdadera sale de la ejecucion
+        #ejecuta 1 o mas veces.
+                                            ESTRUCTURA
+        X=123
+        Repetir
+            Escribir()
+            Leer(a)
+        Hasta que X=a
+_______________________________________________________________________________________________________________________________
+                                CALIFICACION DE ESTRUCTURA REPETITIVA DEFINIDAS
+Ciclo Manejado por contador
+        #Si  se conoce la cantidad de veces que se va a iterar el conjunto de acciones.
+        #El final del bucle esta controlado por una "variable contador"(INDICA cantidad DE iteracion).
+        #La Var contador que maneja el bucle se "ingrementa automaticamente de acuerdo a lo etablecido" hasta llegar al maximo.
+        #EL CONTADOR NO NECESITA INICIALIZACION."puto for gozni 11/04/2025".
+        

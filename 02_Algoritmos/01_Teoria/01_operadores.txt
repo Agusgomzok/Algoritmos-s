@@ -1,0 +1,24 @@
+                                       OPERADORES ARITMETICOS
+RAIZ CUADRADA X**0,5 4**0.5
+TRUNC 6TRUNC4=1
+DiV DIVISION ENTERA 24DIV5 =4
+ / DIVISION CON REAL  24/5= 4.8
+** POTENCIA
+MOD MODULO DE LA DIVISION ENTERA 7MOD 3 =1
++ SUMADOR
+- SUSTRACTOR
+ESCRIBIR () muestra un resultado
+LEER() ingresa un dato
+num1:entero, real, alfanumerico(colocar cantidad de caracteres) //variable
+num=5 //constante
+:= //da un valor a la variable saludo:="hola"
+-------------------------------------------------------------------------------------------------------------------------------
+                                    OPERADORES RELACIONALES
+<MAYOR
+>MENOR
+<= MAYOR O IGUAL
+=< MENOR O IGUAL
+-------------------------------------------------------------------------------------------------------------------------------
+                                OPERADORES LOGICOS
+no los  voy a explicar
+------------------------------------------------------------------------------------------------------------------------------- 

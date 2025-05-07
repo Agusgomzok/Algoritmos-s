@@ -1,0 +1,19 @@
+                        PRIMER POWERPOINT
+x:=10 // para poder modificar el valor de una variable tengo que usar la asignacion ":=" 
+x:entero ; x:=10.5 // "solo se puede asignar el mismo tipo de dato"
+-------------------------------------------------------------------------------------------------------------------------------
+contador
+x:=0
+x:= x+1 // siempre asignar 0 al usar contador "x:=0"
+acumulador
+A:= A + monto // sumar el valor de A y acumularlo con el resto
+-------------------------------------------------------------------------------------------------------------------------------
+                        ACCIONES ELEMENTALES
+ESCRIBIR("TEXTO",variable1) //usar una coma para separar el texto de la variable a mostrar. "ACCION DE SALIDA"
+LEER(X) // cuando se le pide un dato al usuario por teclado se asiga aqui. "ACCION DE ENTRADA"
+_______________________________________________________________________________________________________________________________
+                        OPERADORES
+Operadores Aritmetico: +; -; DIV; /; *; "EXPLICACION DE CADA UNO EN EL ARCHIVO "Operadores.txt""
+Operadores Relacionales: <;>;<=;>= "EXPLICACION DE CADA UNO EN EL ARCHIVO "Operadores.txt""
+Operadores Logicos: true or fale or not
+_______________________________________________________________________________________________________________________________

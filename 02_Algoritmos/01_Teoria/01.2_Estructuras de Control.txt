@@ -1,0 +1,56 @@
+                                "NINGUNA ACCION VA EN EL AMBIENTE"
+ESTRUCTURA SECUENCIAL
+    LA EJECUCION COMIENZA CON LA PRIMERA SENTENCIA Y PROCIGUE HASTA LA ULTIMA SENTENCIA "SE EJECUTAN UNA SOLA VEZ"
+    CADA ACCION SE CIERRA CON UN ";"
+    --------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA CONDICIONAL
+    Utiliza para la toma de decicisones
+    Se realiza una evaluacion de una condicion y depende del result; el algoritmo realiza una determinada accion
+    Las expresiones son especificadas en valores "LOGICOS"
+    ---------------------------------------------------------------------------------------------------------------------
+        CONDICIONAL SIMPLE
+            #Una sola opcion
+            #si la condicion "NO" se ejecutan dichas instrucciones 
+                    Accion .... es
+                        AMBIENTE
+                        .....
+                        PROCESO
+                            Si A>B Entonces
+                                escribir("...");
+                            fin si
+                    Fin Accion
+        CONDICIONAL ALTERNATIVAS
+            #Dos opciones
+            #si la condicion no se cumple, ejecuta la otra opcion
+                    Accion .... es
+                        AMBIENTE
+                        .....
+                        PROCESO
+                            Si A>B Entonces
+                                escribir("...");
+                            Sino 
+                                 escribir("...");
+                            fin si
+                    Fin Accion   
+        CONDICIONAL MULTIPLE
+            Multiples opciones
+                                Accion .... es
+                        AMBIENTE
+                        .....
+                        PROCESO
+                            Si A>B Entonces
+                                escribir("...");
+                            Sino 
+                                 escribir("...");
+                                Si A>B Entonces
+                                    escribir("...");
+                                Sino 
+                                    escribir("...");
+                                    Si A>B Entonces
+                                        escribir("...");
+                                       Sino 
+                                    escribir("...");
+                            fin si
+                    Fin Accion  
+                    
+            

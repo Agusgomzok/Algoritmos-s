@@ -4,16 +4,16 @@
 Accion 1.1.5.6 es
 Ambiente 
 	Ambiente
-		a:Num //son variables de los numeros complejos
-		b:Num //son variables de los numeros complejos
-		c:Num //son variables de los numeros complejos
-		d:Num//son variables de los numeros complejos
+		a:Entero //son variables de los numeros complejos
+		b:Entero //son variables de los numeros complejos
+		c:Entero //son variables de los numeros complejos
+		d:Entero//son variables de los numeros complejos
 		
-		ac:Num
-		db:Num
-		ad:Num
-		bc:Num
-		Resultado:Num
+		ac:Entero
+		db:Entero
+		ad:Entero
+		bc:Entero
+		Resultado:Entero
 	Proceso
 		Escribir("este programa que lee dos número complejos, (a,b) y (c,d), y calcula su producto ")
 		Escribir("Ingrese 4 numeros complejos"a,b,c,d)
@@ -24,6 +24,6 @@ Ambiente
 		bc:=b*c
 
 		Resultado:=(ac−db,ad+bc)
-		Escribir("el resultado del producto de los numeros complejos es" ;Resultado)
+		Escribir("el resultado del producto de los numeros complejos es", Resultado)
 Fin accion
 
