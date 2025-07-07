@@ -1,0 +1,16 @@
+                                        Secuencias Acciones
+
+ARR (sec)= Arranca 
+AVZ (sec,V)=Avanza "el op que perimte recuperar el contenido de caa elemento de secuencia"
+CREAR(salida)=este op permite inicializar una nueva secuencia, vacia. "solosecuencua inexistentes"
+ESCRBIRIR (salida, v)=Guardar dato a una nueva secuencia="solo secuencias nuevas, no existentes"
+S=Secuencias de Caracter
+V=Caracter
+
+
+
+Indefinida Pura
+    Repetir 
+    AVZ (S,V)
+    CONT:CONT +1
+    HASTA QUE FNDS 

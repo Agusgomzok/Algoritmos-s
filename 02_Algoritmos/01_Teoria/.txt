@@ -1,0 +1,2 @@
+Analizar si la secuencia es pura/impura definida/indefinida
+Existen subsecuencias puras/impuras definidas/indefinidas sin son jerarquicas 
