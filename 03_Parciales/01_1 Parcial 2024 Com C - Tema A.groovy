@@ -1,5 +1,4 @@
-{
-    //Ejercicio N° 1 
+// Ejercicio N° 1 
 
 // Un supermercado mayorista necesita un informe de ventas, para lo cual cuenta con una secuencia de caracteres y una secuencia de enteros, ambas contienen información del mes de JUNIO, para las distintas sucursales. La estructura de dichas secuencias es la siguiente:
 
@@ -19,11 +18,21 @@
 // Genere una secuencia de salida de enteros que contenga el número de ticket y el importe, cuando el importe sea mayor a 50.000.
 // Informe, para cada sucursal, cuál fue el ticket de mayor importe (y el importe).
 
-//
-}
-
-ACCION supermercado_Mayorista ES
+ACCION Ejercicio°1 ES
     AMBIENTE
-        
+        sucursal: secuencia de caracter
+        ticket: seciencia de enteros
+        salida:secuencia de enteros
+        v1:caracter
+        v2:entero
+
+        canticket:entero
+        nroticket:entero
+        nroticket_mayor:entero    
     PROCESO
+        Arr(sucursal)
+        Arr(ticket)
+        Crear(salida)
+        Avz(sucursal, v1)
+        Avz(ticket, v2)
 FINACCION
